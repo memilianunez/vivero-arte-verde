@@ -8,7 +8,7 @@ const BtnBack = ({ to }) => {
             className="btn btn-light m-1">
             <div className="d-flex align-items-center justify-content-center">
                 <ArrowLeft />
-                <p className="text-center ms-2 mb-0">Atras</p>
+                <p className="text-center ms-2 mb-0">Ir atrás</p>
             </div>
         </Link>
     );
