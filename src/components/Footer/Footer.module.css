@@ -1,0 +1,19 @@
+.footer {
+    background-color: black;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.instagram:hover {
+    color: #C13584;
+    transition-duration: 0.5s;
+    transition-property: color;
+}
+
+.facebook:hover {
+    color: #2f55a4;
+    transition-duration: 0.5s;
+    transition-property: color;
+}
