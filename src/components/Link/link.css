@@ -1,0 +1,17 @@
+.linkNavegacion {
+    text-decoration: none;
+    color: white
+}
+
+.linkNavegacion:hover {
+    color: grey
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(147, 147, 147)
+}
+
+.link:hover {
+    color: grey
+}
