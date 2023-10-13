@@ -1,4 +1,3 @@
-import './index.css'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter} from 'react-router-dom'
@@ -6,7 +5,7 @@ import App from './App.jsx'
 import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
@@ -19,6 +18,7 @@ const firebaseConfig = {
 };
 
 
+// Initialize Firebase
 initializeApp(firebaseConfig);
 
 
