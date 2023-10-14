@@ -3,8 +3,8 @@ import { useState, useContext } from "react";
 import CartContext from "../../context/CartContext";
 import { cartTotal, mapCartToToOrderItems } from "../../utils";
 import Field from "./Field/Field";
-import BtnBack from "../BtnBack/BtnBack";
-import styles from "./Checkout.module.css";
+import BtnBack from "../BtnBlack/BtnBlack";
+import styles from "../Checkout/Chechout.module.css";
 
 
 const Checkout = () => {

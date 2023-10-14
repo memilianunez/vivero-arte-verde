@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ItemCount from "../../ItemCount/ItemCount";
 import CartContext from "../../../context/CartContext.js";
-import BtnBack from "../../BtnBack/BtnBack";
+import BtnBack from "../../BtnBlack/BtnBlack";
 import styles from './itemDetail.module.css';
 
 
