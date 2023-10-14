@@ -12,13 +12,13 @@
 
 .linkNavegacion {
     text-decoration: none;
-    color: white
+    color: rgb(116, 116, 116)
 }
 
 .logoSize {
-    width: 6rem;
+    width: 5rem;
 }
 
 .background {
-    background-color: rgb(8, 6, 6);
+    background-color: rgb(229, 229, 229);
 };

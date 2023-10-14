@@ -6,40 +6,44 @@ import styles from './NavBar.module.css';
 
 const Navbar = () => {
 
-    return(
+    return (
         <>
             <nav className={`container-fluid d-flex justify-content-between py-2 ${styles.background}`}>
                 <NavLink
                     to="/">
-                    <img className={styles.logoSize} src={Logo} alt="limbo logo" />
+                    <img className={styles.logoSize} src={Logo} alt="logo" />
                 </NavLink>
                 <li className='d-flex align-items-center me-2'>
-                    <ul className={`text-white ${styles.ulNavbar} mx-3`}> 
-                        <Link 
+                    <ul className={`text-white ${styles.ulNavbar} mx-3`}>
+                        <Link
                             link="/"
-                            nombre="Home" /> 
-                    </ul>
-                    <ul className={`text-white ${styles.ulNavbar} mx-3`}> 
-                        <Link 
-                            link="/category/trucker"
-                            nombre="Trucker" /> 
-                    </ul>
-                    <ul className={`text-white ${styles.ulNavbar} mx-3`}> 
-                        <Link 
-                            link="/category/snap" 
-                            nombre="Snap" /> 
-                    </ul>
-                    <ul className={`text-white ${styles.ulNavbar} mx-3`}> 
-                        <Link 
-                            link="/category/baseball" 
-                            nombre="Baseball" /> 
+                            nombre="Home" />
                     </ul>
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
+                        <Link
+                            link="/category/trucker"
+                            nombre="Plantas" />
+                    </ul>
+
+                    <ul className={`text-white ${styles.ulNavbar} mx-3`}>
+                        <Link
+                            link="/category/snap"
+                            nombre="Macetas" />
+                    </ul>
+
+                    <ul className={`text-white ${styles.ulNavbar} mx-3`}>
+                        <Link
+                            link="/category/baseball"
+                            nombre="Tierra" />
+                    </ul>
+
+                    <ul className={`text-white ${styles.ulNavbar} mx-3`}>
                         <button type="button" className="btn position-relative">
+
                             <CartWidget />
                         </button>
                     </ul>
-                </li>   
+                </li>
             </nav>
         </>
     );

@@ -57,7 +57,7 @@ const Checkout = () => {
     };
 
     if (loading) {
-        return <h2>Se esta generando la orden...</h2>
+        return <h2>Se esta procesando tu orden...</h2>
     };
 
     if (orderId) {
@@ -74,7 +74,7 @@ const Checkout = () => {
             <BtnBack to="/cart" />
 
             <form onSubmit={createOrder}>
-                <h2 className="text-center mt-3">Ingresa tus datos para completar la compra 🛍</h2>
+                <h2 className="text-center mt-3">Ingresa tus datos para completar la compra </h2>
                 <div className="container p-2">
                     <div className="d-flex justify-content-center">
                         <Field label="Nombre:" name="name" type="text" placeholder="John" onChange={onChange} />
@@ -101,7 +101,7 @@ const Checkout = () => {
                                 <div className="mx-5">
                                     <h4 className="mb-4">{item.id.name}</h4>
                                     <p>Cantidad: {item.quantity}</p>
-                                    <p> <span>Precio unitario:</span> €{item.id.price}</p>
+                                    <p> <span>Precio:</span> €{item.id.price}</p>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ const Checkout = () => {
             </ul>
             
 
-            <h3 className="mx-auto my-3">Total de la Compra: € {total}</h3>
+            <h3 className="mx-auto my-3">Total de la Compra: {total}</h3>
             
         </div>
     );
