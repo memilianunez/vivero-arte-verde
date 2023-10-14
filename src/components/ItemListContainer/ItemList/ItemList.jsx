@@ -15,7 +15,7 @@ const ItemList = ({ products}) => {
                 name={product.title} 
                 description={product.description}
                 category={product.category}
-                img={`../src/assets/productos${product.img}`}/>
+                img={`../src/assets/productos/${product.img}`}/>
             ))}
             
         </div>

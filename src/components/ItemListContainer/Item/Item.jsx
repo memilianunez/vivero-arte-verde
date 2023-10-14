@@ -5,7 +5,7 @@ const Item = (product) => {
     return (
         <div key={product.id}> 
             <div className={`${styles.estiloCard} m-3`} style={{width: "18rem"}}>
-                <img src={`${product.img}`} className="card-img-top rounded" alt={product.name}/>
+                <img src={`${product.img}`} className="card-img-top rounded" alt={product.title}/>
                 <div className="my-2 text-center">
                     <h5 className="">{product.title}</h5>
                     <p className="m-1 mb-5">Precio: $ {product.price}</p>
