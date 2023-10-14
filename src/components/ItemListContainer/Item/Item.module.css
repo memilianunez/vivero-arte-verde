@@ -1,12 +1,3 @@
-.cardStyle {
-    padding: 3vh;
-    padding-bottom: 2vh;
-    background-color: rgba(0, 0, 0, 0.363);
-    color: white;
-    border-radius: 10px;
-    border: solid 2px black;
-}
-
 
 .button {
     color: #fff;
@@ -22,11 +13,10 @@
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    transition: all 1s ease-in;
 }
 
 .button:hover {
-    color: #FF9950;
+    color: #62ff50;
 }
 
 .button svg {
@@ -42,13 +32,15 @@
     stroke: #fff;
     stroke-width: 2;
     stroke-dasharray: 450, 0;
-    transition: all 0.5s linear;
 }
 
-.button:hover rect {
-    stroke-width: 5;
-    stroke-dasharray: 20, 300;
-    stroke-dashoffset: 48;
-    stroke: #491700;
-    transition: all 2s cubic-bezier(0.22, 1, 0.25, 1);
+.estiloCard {
+    padding: 3vh;
+    padding-bottom: 2vh;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: white;
+    border-radius: 10px;
+    border: solid 2px black;
 }
+
+

@@ -13,7 +13,7 @@ const Navbar = () => {
                     to="/">
                     <img className={styles.logoSize} src={Logo} alt="logo" />
                 </NavLink>
-                <h1 className='nombre-vivero'>Vivero Arte Verde</h1>
+                {/* <h1 className='nombre-vivero'>Vivero Arte Verde</h1> */}
                 <li className='d-flex align-items-center me-2'>
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
                         <Link

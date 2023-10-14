@@ -4,11 +4,11 @@ import styles from "./Item.module.css";
 const Item = (product) => {
     return (
         <div key={product.id}> 
-            <div className={`${styles.cardStyle} m-3`} style={{width: "18rem"}}>
+            <div className={`${styles.estiloCard} m-3`} style={{width: "18rem"}}>
                 <img src={`${product.img}`} className="card-img-top rounded" alt={product.name}/>
                 <div className="my-2 text-center">
                     <h5 className="">{product.name}</h5>
-                    <p className="m-1 mb-5">Precio: € {product.price}</p>
+                    <p className="m-1 mb-5">Precio: $ {product.price}</p>
                     <Link 
                         className={`${styles.button} container`}
                         to={`/item/${product.id}`}>
