@@ -7,7 +7,7 @@ const Item = (product) => {
             <div className={`${styles.estiloCard} m-3`} style={{width: "18rem"}}>
                 <img src={`${product.img}`} className="card-img-top rounded" alt={product.name}/>
                 <div className="my-2 text-center">
-                    <h5 className="">{product.name}</h5>
+                    <h5 className="">{product.title}</h5>
                     <p className="m-1 mb-5">Precio: $ {product.price}</p>
                     <Link 
                         className={`${styles.button} container`}

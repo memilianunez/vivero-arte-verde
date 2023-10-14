@@ -12,11 +12,10 @@ const ItemList = ({ products}) => {
                 price={product.price}
                 key={product.id} 
                 id={product.id} 
-                name={product.name} 
+                name={product.title} 
                 description={product.description}
                 category={product.category}
-                color={product.color}
-                img={`../src/assets/gorras/${product.img}`}/>
+                img={`../src/assets/productos${product.img}`}/>
             ))}
             
         </div>
