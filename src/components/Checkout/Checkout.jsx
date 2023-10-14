@@ -59,7 +59,7 @@ const Checkout = () => {
     };
 
     if (orderId) {
-        return <h2 className={`text-center pt-5 mb-0 ${styles.window}`}> Orden generada con el id: {orderId}</h2>
+        return <h2 className={`text-center pt-5 mb-0 ${styles.window}`}> Orden generada con el ID: {orderId}</h2>
     };
 
 
@@ -99,7 +99,7 @@ const Checkout = () => {
                                 <div className="mx-5">
                                     <h4 className="mb-4">{item.id.name}</h4>
                                     <p>Cantidad: {item.quantity}</p>
-                                    <p> <span>Precio:</span> €{item.id.price}</p>
+                                    <p> <span>Precio:</span> {item.id.price}</p>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ const Checkout = () => {
             </ul>
             
 
-            <h3 className="mx-auto my-3">Total de la Compra: {total}</h3>
+            <h3 className="mx-auto my-3">Total: {total}</h3>
             
         </div>
     );
