@@ -101,7 +101,7 @@ const Checkout = () => {
                                 <div className="mx-5">
                                     <h4 className="mb-4">{item.id.name}</h4>
                                     <p>Cantidad: {item.quantity}</p>
-                                    <p> <span>Precio por unidad:</span> €{item.id.price}</p>
+                                    <p> <span>Precio unitario:</span> €{item.id.price}</p>
                                 </div>
                             </div>
                         </div>
