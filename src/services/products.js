@@ -17,12 +17,9 @@ export const getProduct = (id) => {
 
                 getDoc(itemRef)
                     .then((doc) => {
-
                         if (doc.exists()) {
                             resolve({
-                                id: doc.id,
-                                ...doc.data(),
-                            });
+                                id: doc.id,...doc.data(),});
                         } else {
                             resolve(null);
                         };
@@ -31,7 +28,7 @@ export const getProduct = (id) => {
                             reject(err);
                     })
             }, 1000);
-        });
+        }); 
     };
 
     export const getProducts = (categoryId) => {
@@ -46,8 +43,7 @@ export const getProduct = (id) => {
                 getDocs(productsCollection)
                     .then((snapshot) => {
                         const itemFromSnapshot = snapshot.docs.map((doc) => ({
-                            id: doc.id,
-                            ...doc.data()
+                            id: doc.id, ...doc.data()
                         }));
                         resolve(itemFromSnapshot);
                     })

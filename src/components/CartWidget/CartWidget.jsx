@@ -11,7 +11,7 @@ const CartWidget = () => {
 
     return (
         <Link to={'/cart'}>
-            <img src={Cart} alt="imagen de carrito" />
+            <img src={Cart} alt="img. carrito" />
             {quantity > 0 ? <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
                 +{quantity}
             </span> : null}

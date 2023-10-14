@@ -26,7 +26,7 @@ const ItemDetail = ({ product }) => {
         addItem(item, quantity)
         toast.info("Producto Agregado al Carrito", {
             theme: "dark",
-            icon: "🚀",
+            icon: " ",
             autoClose: 1500
         });
     };
