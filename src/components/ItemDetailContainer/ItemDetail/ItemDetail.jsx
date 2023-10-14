@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ItemCount from "../../ItemCount/ItemCount";
-import CartContext from "../../../context/CartContext";
+import CartContext from "../../../context/CartContext.js";
 import BtnBack from "../../BtnBack/BtnBack";
 import styles from './itemDetail.module.css';
 
