@@ -25,7 +25,6 @@ const ItemDetail = ({ product }) => {
 
         addItem(item, quantity)
         toast.info("Producto Agregado al Carrito", {
-            theme: "dark",
             icon: " ",
             autoClose: 1500
         });
@@ -38,25 +37,19 @@ const ItemDetail = ({ product }) => {
     return (
         <div>
             <div key={product.id} className="text-white p-5">
-                <BtnBack to="/" />
                 <div className="container d-flex flex-column flex-lg-row justify-content-center mt-5">
                     <div className="me-2 col-7 text-center">
-                        <img src={`../src/assets/gorras/${product.img}`} className={styles.imgStyle} alt="gorra" />
+                        <img src={`../src/assets/productos/${product.img}`} className={styles.imgStyle} alt="productos" />
                     </div>
                     <div className="ms-2 col-5">
                         <h2>{product.name}</h2>
-                        <h4>€ {product.price}</h4>
-                        <p>O 3 cuotas fijas sin interes de €{product.price / 3}</p>
+                        <h4>$ {product.price}</h4>
                         <p>Stock: {product.stock}</p>
                         <div className="my-4">
                             <ItemCount onAdd={handleOnAdd}/>
                             {quantityAdded > 0 ? 
-                                <Link
-                                    to='/cart'
-                                    className="btn btn-light container m-1 col-7">Ir al Carrito</Link> : 
-                                <Link
-                                    to='/cart'
-                                    className="btn btn-light container m-1 col-7 disabled">Ir al Carrito</Link>}
+                                <Link to='/cart'className="btn btn-light container m-1 col-7">Ir al Carrito</Link> : 
+                                <Link to='/cart' className="btn btn-light container m-1 col-7 disabled">Ir al Carrito</Link>}
                         </div>
                         <div className="my-5">
                             <h5>Descripcion:</h5>
