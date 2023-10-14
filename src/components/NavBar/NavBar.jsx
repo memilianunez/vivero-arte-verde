@@ -13,6 +13,7 @@ const Navbar = () => {
                     to="/">
                     <img className={styles.logoSize} src={Logo} alt="logo" />
                 </NavLink>
+                <h1 className='nombre-vivero'>Vivero Arte Verde</h1>
                 <li className='d-flex align-items-center me-2'>
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
                         <Link
@@ -21,19 +22,19 @@ const Navbar = () => {
                     </ul>
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
                         <Link
-                            link="/category/trucker"
+                            link="/category/plantas"
                             nombre="Plantas" />
                     </ul>
 
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
                         <Link
-                            link="/category/snap"
+                            link="/category/macetas"
                             nombre="Macetas" />
                     </ul>
 
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
                         <Link
-                            link="/category/baseball"
+                            link="/category/tierra"
                             nombre="Tierra" />
                     </ul>
 
