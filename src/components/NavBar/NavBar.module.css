@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+.background {
+    background-color: rgb(229, 229, 229);
+};
+
 .cartNotification{
     background-color: red;
     text-align: center;
@@ -19,6 +23,3 @@
     width: 5rem;
 }
 
-.background {
-    background-color: rgb(229, 229, 229);
-};

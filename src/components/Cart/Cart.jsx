@@ -23,7 +23,7 @@ const Cart = () => {
                                     <h3 className="mb-4">{item.id.name}</h3>
                                     <p>{item.id.description}</p>
                                     <p>Cantidad: {item.quantity}</p>
-                                    <p> <span>Precio unitario:</span> €{item.id.price}</p>
+                                    <p> <span>Precio:</span> €{item.id.price}</p>
                                 </div>
                                 <button onClick={() => removeItem(item.id)} className="ms-5 badge text-bg-danger"> X </button>
                             </div>
