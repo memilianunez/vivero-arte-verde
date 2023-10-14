@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import styles from '/Item.module.css';
+import styles from "./Item.module.css";
 
 const Item = (product) => {
     return (
@@ -8,7 +8,7 @@ const Item = (product) => {
                 <img src={`${product.img}`} className="card-img-top rounded" alt={product.name}/>
                 <div className="my-2 text-center">
                     <h5 className="">{product.name}</h5>
-                    <p className="m-1 mb-5">Precio: € {product.price}</p>
+                    <p className="m-1 mb-5">Precio: {product.price}</p>
                     <Link 
                         className={`${styles.button} container`}
                         to={`/item/${product.id}`}>
