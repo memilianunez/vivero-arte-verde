@@ -22,19 +22,19 @@ const Navbar = () => {
                     </ul>
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
                         <Link
-                            link="/category/plantas"
+                            link="/category/plants"
                             nombre="Plantas" />
                     </ul>
 
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
                         <Link
-                            link="/category/macetas"
+                            link="/category/plantpot"
                             nombre="Macetas" />
                     </ul>
 
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
                         <Link
-                            link="/category/tierra"
+                            link="/category/ground"
                             nombre="Tierra" />
                     </ul>
 
