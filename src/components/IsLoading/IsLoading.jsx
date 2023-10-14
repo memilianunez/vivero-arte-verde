@@ -5,7 +5,7 @@ const IsLoading = () => {
         <div className={`position-relative m-5 p-5 ${styles.window}`}>
             <div className="position-absolute top-0 start-50 translate-middle">
                 <div className="spinner-border text-secondary m-5" role="status">
-                    <span className="visually-hidden">Loading...</span>
+                    <span className="visually-hidden">Cargando...</span>
                 </div>   
             </div>            
         </div>
