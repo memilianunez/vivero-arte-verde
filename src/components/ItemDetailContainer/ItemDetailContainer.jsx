@@ -6,8 +6,6 @@ import { getProduct } from "../../services/products";
 import styles from "./ItemDetailContainer.module.css";
 
 
-
-
 const ItemDetailContainer = () => {
 
     const [product, setProduct] = useState(null);

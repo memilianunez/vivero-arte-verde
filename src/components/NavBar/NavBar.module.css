@@ -9,7 +9,7 @@
 };
 
 .cartNotification{
-    background-color: red;
+    background-color: rgb(32, 96, 181);
     text-align: center;
     border-radius: 1rem;
 }

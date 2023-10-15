@@ -8,6 +8,7 @@ import styles from './itemDetail.module.css';
 
 
 
+
 const ItemDetail = ({ product }) => {
     const [quantityAdded, setQuantityAdded] = useState(0);
     const { addItem } = useContext(CartContext);
@@ -39,7 +40,7 @@ const ItemDetail = ({ product }) => {
             <div key={product.id} className="text-white p-5">
                 <div className="container d-flex flex-column flex-lg-row justify-content-center mt-5">
                     <div className="me-2 col-7 text-center">
-                        <img src={`../src/assets/productos/${product.img}`} className={styles.imgStyle} alt="productos" />
+                    <img src={`${product.img}`} className={styles.imgStyle} alt="producto del vivero" />
                     </div>
                     <div className="ms-2 col-5">
                         <h2>{product.name}</h2>

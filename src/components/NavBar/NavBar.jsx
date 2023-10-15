@@ -16,31 +16,23 @@ const Navbar = () => {
                 {/* <h1 className='nombre-vivero'>Vivero Arte Verde</h1> */}
                 <li className='d-flex align-items-center me-2'>
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
-                        <Link
-                            link="/"
-                            nombre="Home" />
-                    </ul>
-                    <ul className={`text-white ${styles.ulNavbar} mx-3`}>
-                        <Link
-                            link="/category/plants"
-                            nombre="Plantas" />
+                        <Link link="/" nombre="Home" />
                     </ul>
 
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
-                        <Link
-                            link="/category/plantpot"
-                            nombre="Macetas" />
+                        <Link link="/category/plants" nombre="Plantas" />
                     </ul>
 
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
-                        <Link
-                            link="/category/ground"
-                            nombre="Tierra" />
+                        <Link link="/category/plantpot" nombre="Macetas" />
+                    </ul>
+
+                    <ul className={`text-white ${styles.ulNavbar} mx-3`}>
+                        <Link link="/category/ground" nombre="Tierra" />
                     </ul>
 
                     <ul className={`text-white ${styles.ulNavbar} mx-3`}>
                         <button type="button" className="btn position-relative">
-
                             <CartWidget />
                         </button>
                     </ul>

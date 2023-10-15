@@ -31,6 +31,8 @@ export const getProduct = (id) => {
         }); 
     };
 
+
+
     export const getProducts = (categoryId) => {
         return new Promise((resolve, reject) => {
         
@@ -54,3 +56,4 @@ export const getProduct = (id) => {
             }, 1000);
         });
     };
+
